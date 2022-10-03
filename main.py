@@ -22,3 +22,7 @@
 def callModule ():
     moduleName = input('Write your module name')
     numberOfComponents = input('Write number of components')
+    markForComponent = input('Mark the component')
+    print(moduleName + ' ' + numberOfComponents + ' ' + markForComponent)
+
+callModule()
